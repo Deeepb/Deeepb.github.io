@@ -24,8 +24,8 @@
     
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
-    KEEP.hexo_config = {"hostname":"deeepb.github.io","root":"/","language":"en"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Master Young","author":"X.Z. Young","avatar":"/images/snow.svg","logo":"/images/faith.svg","favicon":"/images/faith.svg"},"menu":{"home":"/","archives":"/archives","tags":"/tags","categories":"/categories"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"mac"},"highlight_theme":"obsidian"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":"ture","provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2024,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.5"}
+    KEEP.hexo_config = {"hostname":"deeepb.github.io","root":"/","language":"en","path":"search.xml"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Master Young","author":"X.Z. Young","avatar":"/images/snow.svg","logo":"/images/faith.svg","favicon":"/images/faith.svg"},"menu":{"home":"/ || fa-solid fa-house","archives":"/archives || fa-solid fa-box-archive","classification":{"icon":"fa-solid fa-book","children":[{"tags":"/tags || fa-solid fa-tag"},{"categories":"/categories || fa-solid fa-list"}]}},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"让问题成为它自身的答案","hitokoto":false},"social_contact":{"enable":true,"links":{"github":"https://github.com/Deeepb","weixin":"img | /images/wechat.jpg","qq":"img | /images/qq.png","x":"https://x.com/dlrowelloH"}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":false,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":true,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"mac"},"highlight_theme":"obsidian"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":true,"site_pv":true,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":"ture","provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2024,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.5"}
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
     KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
     KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
@@ -56,7 +56,7 @@
                     
                         
                             
-                                <div class="desc-item border-box"><span class="desc">Keep writing and Keep loving.</span><span class="cursor">｜</span></div>
+                                <div class="desc-item border-box"><span class="desc">让问题成为它自身的答案</span><span class="cursor">｜</span></div>
                             
                         
                     
@@ -67,6 +67,83 @@
         </div>
 
         <div class="bottom-placeholder border-box">
+            
+                <div class="sc-icon-list border-box">
+                    <!-- fontawesome icons -->
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item "
+                                 data-tooltip-content="GitHub"
+                                 
+                                 
+                            >
+                                
+                                    
+                                    
+                                        <a target="_blank" href="https://github.com/Deeepb">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item tooltip-img clear"
+                                 data-tooltip-content="WeChat"
+                                 data-tooltip-img-name=weixin
+                                 data-tooltip-img-url=/images/wechat.jpg
+                            >
+                                
+                                    
+                                    
+                                        <i class="fab fa-weixin"></i>
+                                    
+                                
+                            </div>
+                        
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item tooltip-img clear"
+                                 data-tooltip-content="QQ"
+                                 data-tooltip-img-name=qq
+                                 data-tooltip-img-url=/images/qq.png
+                            >
+                                
+                                    
+                                    
+                                        <i class="fab fa-qq"></i>
+                                    
+                                
+                            </div>
+                        
+                    
+                        
+                            
+                            <div class="tooltip sc-icon-item "
+                                 data-tooltip-content="X"
+                                 
+                                 
+                            >
+                                
+                                    
+                                    
+                                        <a target="_blank" href="https://x.com/dlrowelloH">
+                                            <i class="fab fa-x-twitter"></i>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    
+
+                    <!-- custom svg icons -->
+                    
+                    
+                </div>
             
         </div>
     </div>
@@ -100,6 +177,8 @@
                         <li class="menu-item flex-start border-box active">
                             <a class="menu-text-color border-box" href="/">
                                 
+                                    <i class="menu-text-color menu-icon fa-solid fa-house"></i>
+                                
                                 HOME
                                 
                             </a>
@@ -110,6 +189,8 @@
                         <li class="menu-item flex-start border-box">
                             <a class="menu-text-color border-box" href="/archives">
                                 
+                                    <i class="menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                
                                 ARCHIVES
                                 
                             </a>
@@ -117,22 +198,40 @@
                         </li>
                     
                         
-                        <li class="menu-item flex-start border-box">
-                            <a class="menu-text-color border-box" href="/tags">
+                        <li class="menu-item flex-start border-box has-sub-menu">
+                            <a class="menu-text-color border-box" href="javascript:void(0);">
                                 
-                                TAGS
+                                    <i class="menu-text-color menu-icon fa-solid fa-book"></i>
+                                
+                                CLASSIFICATION
+                                
+                                    <i class="menu-text-color collapse-icon fa-solid fa-angle-down"></i>
                                 
                             </a>
                             
-                        </li>
-                    
-                        
-                        <li class="menu-item flex-start border-box">
-                            <a class="menu-text-color border-box" href="/categories">
-                                
-                                CATEGORIES
-                                
-                            </a>
+                                <ul class="sub-menu-list border-box">
+                                    
+                                        
+                                        <li class="sub-menu-item border-box ">
+                                            <a class="menu-text-color border-box flex-start" href="/tags">
+                                                
+                                                    <i class="menu-text-color sub-menu-icon fa-solid fa-tag"></i>
+                                                
+                                                TAGS
+                                            </a>
+                                        </li>
+                                    
+                                        
+                                        <li class="sub-menu-item border-box ">
+                                            <a class="menu-text-color border-box flex-start" href="/categories">
+                                                
+                                                    <i class="menu-text-color sub-menu-icon fa-solid fa-list"></i>
+                                                
+                                                CATEGORIES
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
                             
                         </li>
                     
@@ -162,6 +261,10 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
                             
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-house"></i>
+                                </span>
+                            
                             HOME
                         </a>
                         
@@ -174,6 +277,10 @@
                     <label class="drawer-menu-label border-box">
                         <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
                             
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                </span>
+                            
                             ARCHIVES
                         </a>
                         
@@ -182,26 +289,48 @@
                 </li>
             
                 
-                <li class="drawer-menu-item border-box not-sub-menu">
+                <li class="drawer-menu-item border-box has-sub-menu">
                     <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/tags">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="javascript:void(0);">
                             
-                            TAGS
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-book"></i>
+                                </span>
+                            
+                            CLASSIFICATION
                         </a>
+                        
+                            <i class="right-side collapse-icon fa-solid fa-angle-left"></i>
                         
                     </label>
                     
-                </li>
-            
-                
-                <li class="drawer-menu-item border-box not-sub-menu">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/categories">
+                        <ul class="drawer-sub-menu-list border-box">
                             
-                            CATEGORIES
-                        </a>
-                        
-                    </label>
+                                
+                                <li class="sub-menu-item border-box">
+                                    <a class="drawer-menu-text-color border-box flex-start" href="/tags">
+                                        
+                                            <span class="sub-menu-icon-wrap border-box flex-center">
+                                                <i class="drawer-menu-text-color sub-menu-icon fa-solid fa-tag"></i>
+                                            </span>
+                                        
+                                        TAGS
+                                    </a>
+                                </li>
+                            
+                                
+                                <li class="sub-menu-item border-box">
+                                    <a class="drawer-menu-text-color border-box flex-start" href="/categories">
+                                        
+                                            <span class="sub-menu-icon-wrap border-box flex-center">
+                                                <i class="drawer-menu-text-color sub-menu-icon fa-solid fa-list"></i>
+                                            </span>
+                                        
+                                        CATEGORIES
+                                    </a>
+                                </li>
+                            
+                        </ul>
                     
                 </li>
             
@@ -223,6 +352,56 @@
                     <div class="home-content-container fade-in-down-animation">
     
     <ul class="home-post-list border-box">
+        
+            <li class="home-post-item">
+
+                
+
+                <div class="home-post-item-bottom border-box">
+                    
+                    <h3 class="home-post-title border-box">
+                        <a href="/2024/11/30/2/">
+                            
+                        </a>
+                    </h3>
+
+                    <div class="home-post-content keep-markdown-body">
+                        
+                            
+                        
+                    </div>
+
+                    
+
+<div class="post-meta-info-container border-box home">
+    <div class="post-meta-info border-box">
+        
+            <span class="meta-info-item border-box">
+                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
+                                                                                data-updated="Sat Nov 30 2024 17:38:53 GMT+0800"
+                >2024-11-30 17:38:53</span>
+            </span>
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+        <a class="home-read-more" href="/2024/11/30/2/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+    
+</div>
+
+                </div>
+            </li>
         
             <li class="home-post-item">
 
